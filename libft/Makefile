@@ -5,8 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: obahi <obahi@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2023/06/15 00:37:53 by obahi             #+#    #+#              #
-#    Updated: 2023/08/28 14:39:28 by obahi            ###   ########.fr        #
+#    Created: 2023/12/12 02:43:15 by obahi             #+#    #+#              #
+#    Updated: 2023/12/12 02:43:18 by obahi            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,6 @@ CFLAGS = -Wall -Wextra -Werror
 NAME = libft.a
 SRC = 	ft_atoi.c \
 		ft_atoll.c \
-		ft_atosize_t.c \
 		ft_bzero.c \
 		ft_calloc.c \
 		ft_free.c \

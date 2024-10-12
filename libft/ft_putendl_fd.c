@@ -6,13 +6,13 @@
 /*   By: obahi <obahi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 16:18:53 by obahi             #+#    #+#             */
-/*   Updated: 2023/08/25 09:56:29 by obahi            ###   ########.fr       */
+/*   Updated: 2023/11/01 11:47:26 by obahi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(const char *s, int fd)
 {
 	if (s)
 	{

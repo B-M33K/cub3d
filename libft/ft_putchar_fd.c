@@ -6,13 +6,13 @@
 /*   By: obahi <obahi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 16:14:08 by obahi             #+#    #+#             */
-/*   Updated: 2023/08/25 09:56:26 by obahi            ###   ########.fr       */
+/*   Updated: 2023/11/01 11:47:35 by obahi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+void	ft_putchar_fd(const char c, int fd)
 {
 	write(fd, &c, 1);
 }

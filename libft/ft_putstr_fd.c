@@ -6,13 +6,13 @@
 /*   By: obahi <obahi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 16:16:58 by obahi             #+#    #+#             */
-/*   Updated: 2023/08/25 09:56:35 by obahi            ###   ########.fr       */
+/*   Updated: 2023/11/01 11:47:42 by obahi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(const char *s, int fd)
 {
 	if (s)
 		while (*s)

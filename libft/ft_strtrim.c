@@ -6,7 +6,7 @@
 /*   By: obahi <obahi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 11:31:28 by obahi             #+#    #+#             */
-/*   Updated: 2023/08/25 09:58:55 by obahi            ###   ########.fr       */
+/*   Updated: 2023/12/12 00:47:13 by obahi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,5 +63,6 @@ char	*ft_strtrim(char const *s1, char const *set)
 		}
 		*(ptr + i) = 0;
 	}
+	free((char *)s1);
 	return (ptr);
 }
